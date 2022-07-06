@@ -1,0 +1,31 @@
+.activities{
+    text-align: center;
+}
+.activities > h2{
+    font-size:3em;
+    margin-top:80px;
+}
+.activities > h3{
+    font-size:2em;
+    font-weight:400;
+}
+.activities-list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:80px;
+    margin:80px 20px;
+}
+.activities-list h3{
+    text-align:center;
+    margin:20px auto 0px;
+    font-weight:500;
+
+}
+.activities-list p{
+    color: #ccc;
+    margin-top: 5px;
+}
+.img{
+    width: 300px;
+    height:200px;
+}
